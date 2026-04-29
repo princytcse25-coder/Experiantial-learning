@@ -1,0 +1,82 @@
+body{
+font-family: Arial;
+margin:0;
+background-color: lightyellow;
+}
+
+header {
+background-color: blue;
+color: white;
+text-align: center;
+padding:15px;
+}
+
+nav{
+background-color:skyblue;
+text-align: center;
+padding: 10px;
+}
+
+nav a{
+margin: 10px;
+text-decoration: none;
+color: black;
+}
+
+nav a:hover{
+color: red;
+}
+
+section{
+padding: 20px;
+}
+
+h2{
+color: blue;
+}
+
+.faculty-list{
+list-style: none;
+padding: 0;
+}
+
+.faculty-list li{
+margin: 10px 0;
+}
+
+.card{
+background-color: lightblue;
+padding: 10px;
+margin: 10px 0;
+} 
+
+.table-box{
+overflow-x:auto;
+}
+
+table{
+width: 100%;
+border-collapse: collapse;
+}
+
+th{
+background-color: blue;
+color: white;
+padding:10px;
+}
+
+td{
+padding:10px;
+text-align:center;
+}
+
+tr:nth-child(even){
+background-color:lightgray;
+}
+
+footer {
+background-color:blue;
+color:white;
+text-align:center;
+padding:10px;
+}
